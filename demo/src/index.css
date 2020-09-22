@@ -8,12 +8,14 @@ html, body {
 .title {
     margin: 20px auto 0;
     text-align: center;
+    
 }
 
 .links {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    background-color: gray;
 }
 
 .links .link {
