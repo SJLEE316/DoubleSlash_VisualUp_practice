@@ -14,8 +14,9 @@ html, body {
 .links {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+/*    margin-left: 50px;*/
     background-color: gray;
+    border: 1px solid;
 }
 
 .links .link {
