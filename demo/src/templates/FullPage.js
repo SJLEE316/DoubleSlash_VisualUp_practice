@@ -1,14 +1,14 @@
 import React from "react";
 import { Pager } from "react-bootstrap";
 
-import ReactPageScroller from "../../src";
-import FirstComponent from "./FirstComponent";
-import SecondComponent from "./SecondComponent";
-import ThirdComponent from "./ThirdComponent";
-import FourthComponent from "./FourthComponent";
-import FifthComponent from "./FifthComponent";
+import ReactPageScroller from "../../../src";
+import FirstComponent from "../FirstComponent";
+import SecondComponent from "../SecondComponent";
+import ThirdComponent from "../ThirdComponent";
+import FourthComponent from "../FourthComponent";
+import FifthComponent from "../FifthComponent";
 
-import "./index.css";
+import "../index.css";
 
 export default class FullPage extends React.Component {
   constructor(props) {
