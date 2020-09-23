@@ -17,8 +17,8 @@ const App = () => {
                 <li><Link to="/search">검색</Link></li>
             </ul>
 
-            <Route path="/" component={FullPage}/>
-            <Route path="/home" component={Home} exact={true}/>
+            <Route path="/" component={FullPage}  exact={true}/>
+            <Route path="/home" component={Home}/>
             <Route path="/list" component={List}/>
             <Route path="/search" component={Search} />
             <Route path="/login" component={Login}/>
