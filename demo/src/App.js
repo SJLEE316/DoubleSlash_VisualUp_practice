@@ -4,21 +4,18 @@ import FullPage from "./FullPage";
 import login from "./login";
 import list from "./list";
 import search from "./search";
-import Navigation from "./Navigation"
+import Navigation from "./Navigation";
 
 function App() {
   return ( 
-  <Router >
-    <div>
-      <Switch>
+      <HashRouter>
         <Navigation />
         <Route exact path="/" component={FullPage} />
         <Route path="/login" component={login} />
         <Route path="/link" component={list} />
         <Route path="/search" component={search} />
-      </Switch>
-    </div>,
-  </Router>
+      </HashRouter>
+     
   );
 }
 
