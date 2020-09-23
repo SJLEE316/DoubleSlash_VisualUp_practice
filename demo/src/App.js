@@ -4,6 +4,7 @@ import FullPage from "./FullPage";
 import login from "./login";
 import list from "./list";
 import search from "./search";
+import Navigation from "./Navigation"
 
 function App() {
   return ( 
