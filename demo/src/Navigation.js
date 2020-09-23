@@ -9,10 +9,18 @@ class Navigation extends React.Component {
         <div>
           <h1 className="title">React Page Scroller Demo</h1>
           <div className="links">
-              <Link to="/">Visual up</Link>
-              <Link to="/list">List</Link>
-              <Link to="/login">Login</Link>
-              <Link to="/search">Search</Link>
+           <div className = "link">
+                <Link to="/">Visual up</Link>
+              </div>
+            <div className = "link">
+                <Link to="/list">List</Link>
+             </div>             
+             <div className = "link">
+                <Link to="/login">Login</Link>
+            </div>            
+            <div className = "link">
+                <Link to="/search">Search</Link>
+            </div>
           </div>
         </div>
       );
