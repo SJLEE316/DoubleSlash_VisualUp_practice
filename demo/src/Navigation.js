@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 
-class Navigation extends React.Component {
-    render() {
+function Navigation() {
       return (
         <div>
           <h1 className="title">React Page Scroller Demo</h1>
@@ -25,6 +24,6 @@ class Navigation extends React.Component {
         </div>
       );
     }
-  }
+
 
 export default Navigation;
