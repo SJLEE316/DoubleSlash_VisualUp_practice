@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const List = () => {
@@ -6,6 +7,7 @@ const List = () => {
             <h2>List</h2>
         </div>
     )
+
 }
 
 export default List;

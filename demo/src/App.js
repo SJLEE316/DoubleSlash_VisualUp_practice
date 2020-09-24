@@ -4,21 +4,20 @@ import {Route, Link} from 'react-router-dom';
 import List from "./templates/List";
 import Login from "./templates/Login";
 import Search from "./templates/Search";
-import Home from "./templates/Home";
+
 import FullPage from "./templates/FullPage"
+import Navigation from "./templates/Navigation";
 
 
 const App = () => {
     return(
         <div>
-            <ul>
-                <li><Link to="/list">리스트</Link></li>
-                <li><Link to="/login">로그인</Link></li>
-                <li><Link to="/search">검색</Link></li>
-            </ul>
 
+         <Navigation/>
             <Route path="/" component={FullPage}  exact={true}/>
-            <Route path="/home" component={Home}/>
+
+
+
             <Route path="/list" component={List}/>
             <Route path="/search" component={Search} />
             <Route path="/login" component={Login}/>
@@ -26,4 +25,6 @@ const App = () => {
     );
 };
 
+
 export default App;
+
