@@ -1,13 +1,11 @@
-
 import React from 'react';
 
-const Search = () => {
+const Home = () => {
     return(
         <div>
-            <h2>Search</h2>
+            <h2>Home</h2>
         </div>
     )
-
 }
 
-export default Search;
+export default Home;
