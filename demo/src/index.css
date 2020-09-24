@@ -3,7 +3,15 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-}
+    box-sizing: border-box;
+  }
+
+  body{
+    height: 150%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
 
 .title {
     margin: 20px auto 0;
@@ -11,29 +19,25 @@ html, body {
     
 }
 
-.links {
-    display: flex;
-    flex-direction: column;
-/*    margin-left: 50px;*/
-    background-color: gray;
-    border: 1px solid;
-}
-
-.links .link {
-    margin-top: 20px;
-}
-
 .component {
     height: 100%;
     width: 100%;
-    display: inline-flex;
+    display: inline-block;
 }
 
-.component.first-component {
+.first-component {
     background-color: gray;
     position: relative;
-    display : inline-block;
+    display : flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+.first-component .first-component-text {
+    margin-top: 20rem;
+    color: white;
+    margin-left: 20rem;
+  }
 
 .first-component--inside-scroller {
     position: absolute;
@@ -41,9 +45,66 @@ html, body {
     top: 100px;
 }
 
-.component.second-component {
-    background-color: red;
-}
+
+.second-component {
+    background-color: rgb(219, 108, 108);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .second-component h5{
+    display: inline;
+    border: 1px solid;
+    border-radius: 20px;
+    padding : 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  
+  .second-box-container{
+    display: inline-flex;
+    flex-direction: row;
+    color : rgb(192, 191, 191);
+    background-color: rgb(0, 0, 0,0.3);
+    justify-content: space-around;
+    padding: 1rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /*왜 가운데로 안가지..->align-itmes*/
+    width :800px;
+    height: 400px;
+  }
+  
+  .second-component .second-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+  }
+  
+  .second-box-content{
+    margin: 1rem;
+  }
+  
+  .second-box-content img{
+    height: 100px;
+    width:  100px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .second-component .second-component-text {
+    text-align: center;
+    height: 150px;
+  }
+  
+  .second-box-content p{
+    font-size: 10px;
+  }
 
 .component.third-component {
     background-color: blue;
@@ -72,9 +133,9 @@ h2 {
     align-items:flex-end;    
 }
 
-/* .pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
+.pagination-additional-class > li > a, .pagination-additional-class > li> span {
     margin-right: 0px;
-} */
+} 
 
 .demo-page-contain {
     display: flex;
@@ -88,8 +149,19 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* @media (max-width: 768px) {
-    .pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
+ @media (max-width: 768px) {
+    .pagination-additional-class > li > a, .pagination-additional-class > li > span {
         margin-right: 5px;
     }
-} */
+} 
+
+
+
+.pager li>a {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    align-self: flex-end;
+  }
