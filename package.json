@@ -21,6 +21,8 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.6.5",
     "babel-polyfill": "^6.26.0",
     "gh-pages": "^1.1.0",
     "lodash": "^4.17.15",
