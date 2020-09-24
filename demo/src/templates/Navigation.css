@@ -1,0 +1,38 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    list-style-type: none;
+    background: none;
+    position: absolute;
+    top: 10px; 
+    z-index: 1;
+}
+
+
+
+.links .link {
+    cursor: pointer;
+}
+
+.link img {
+    width: 100px;
+    height: 30px;
+    margin-left: 3rem ;
+    padding: 0.2rem;
+}
+
+.icon{
+    display: inline-flex;
+    margin-left: auto;
+    padding-right: 3rem;
+    
+}
+.icon .link {
+    padding : 0.5rem;
+    color: rgb(0,0, 0);
+}
+
