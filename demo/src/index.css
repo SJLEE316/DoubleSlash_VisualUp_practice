@@ -73,12 +73,17 @@ html, body {
     align-items: center;
     color: honeydew;
   }
-  
+ 
+  .second-component .second-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
   .second-component-text h5{
     display: inline;
     border: 1px solid;
     border-radius: 20px;
-    margin: 20px;
     padding : 0.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -109,15 +114,8 @@ html, body {
     height: 420px;
   }
   
-  .second-component .second-container{
-    display: flex;
-    flex-direction: column;
-    padding-top: 70px;
-  }
-  
   .second-box-content{
     margin: 2rem;
-  
   }
  
   .second-box-content h3,h4,p{
