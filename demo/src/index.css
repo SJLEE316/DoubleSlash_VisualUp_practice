@@ -194,17 +194,20 @@ html, body {
   height: 100%;
   display:flex;
   flex-direction: column;
- /* align-items: flex-end;
+ /* align-items: flex-end;*/ 
  /* position:absolute;
   width:100%;
   bottom:0px;*/ 
+
 }
 
 .fourth-box-container {
   margin-top: auto;
   display:flex;
   justify-content:space-around;
-  width: 100%;
+  padding-bottom: 5rem;
+  width:100%;
+
   /* align-items:flex-end;  */  /* justify-content(가로), align-items(세로)는 flex item을 정렬 */
   background-color: rgb(247, 243, 222);
  /*  position:absolute;*/
