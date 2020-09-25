@@ -3,15 +3,15 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    box-sizing: border-box;
   }
-
+/*상단바
   body{
     height: 150%;
     position: absolute;
     top: 0;
     z-index: -2;
   }
+*/
 
 .title {
     margin: 20px auto 0;
@@ -22,15 +22,15 @@ html, body {
 .component {
     height: 100%;
     width: 100%;
-    display: inline-block;
+    display: flex;
+    position: relative;
 }
 
 .first-component {
     background-color: rgb(241, 219, 184);
-    position: relative;
-    display : flex;
+  /*  display : flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;*/
 }
 
 .first-component .first-component-text {
@@ -50,7 +50,7 @@ html, body {
     right: 20px;
     top: 100px;
 }
-
+/*배경이미지
 .first-component img {
   position: absolute;
   top: 0;
@@ -64,7 +64,7 @@ html, body {
 .first-component-text{
   z-index: 1;
 }
-
+*/
 .second-component {
     background-color: rgb(235, 135, 135);
     display: flex;
