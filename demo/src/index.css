@@ -109,7 +109,7 @@ html, body {
 /* third */
 
 .component.third-component {
-  background-color: rgb(252,251,246);
+  background-color: rgb(243,239,236);
 }
 
 .third-container{
@@ -162,11 +162,12 @@ html, body {
 
 
 .component.fourth-component {
-    background-color: rgb(246,242,234);
+    /*background-color: rgb(222,235,247);*/
+    background:url(./img/hip-square.png) repeat;
 }
 
 .component.fifth-component {
-    background-color: purple;
+    background-color: rgb(147,193,190);
 }
 
 h2 {
