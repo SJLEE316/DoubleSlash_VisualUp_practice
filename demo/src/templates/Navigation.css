@@ -3,13 +3,12 @@
     flex-direction: row;
     width: 100%;
     margin: 0;
+    margin-bottom: 10px;
     padding: 0;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255);
     list-style-type: none;
-    background: none;
-    position: absolute;
-    top: 10px; 
-    z-index: 1;
+   /* position: absolute; 이놈이다..
+    z-index: 2;*/
 }
 
 
@@ -19,9 +18,10 @@
 }
 
 .link img {
-    width: 100px;
-    height: 30px;
-    margin-left: 3rem ;
+    width: 110px;
+    height: 45px;
+    margin-left: 4rem ;
+    margin-top: 0.7rem;
     padding: 0.2rem;
 }
 
@@ -29,7 +29,7 @@
     display: inline-flex;
     margin-left: auto;
     padding-right: 3rem;
-    
+    margin-top: 1.5rem;
 }
 .icon .link {
     padding : 0.5rem;
