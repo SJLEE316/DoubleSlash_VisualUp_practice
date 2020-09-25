@@ -18,17 +18,17 @@ class Navigation extends React.Component {
           <div className = "icon">
               <div className="link">
                   <Link to="/contain">
-                      <SearchOutlined style ={{fontSize : '18px', color : 'black'}}/>
+                      <SearchOutlined style ={{fontSize : '25px', color : 'black'}}/>
                   </Link>
               </div>
               <div className="link">
                   <Link to="/contain">
-                      <UnorderedListOutlined  style ={{fontSize : '18px', color : 'black'}}/>
+                      <UnorderedListOutlined  style ={{fontSize : '25px', color : 'black'}}/>
                   </Link>
               </div>
               <div className="link">
                   <Link to="/contain">
-                      <UserOutlined style={{ fontSize : '18px', color: 'black' }}/>
+                      <UserOutlined style={{ fontSize : '25px', color: 'black' }}/>
                   </Link>
               </div>
           </div>
