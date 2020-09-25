@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Logo from "../src/img/logo.png";
+import { TwitterOutlined , InstagramOutlined  ,FacebookOutlined ,CopyrightOutlined   } from '@ant-design/icons';
 
 export default () => {
   return (
@@ -41,7 +42,23 @@ export default () => {
               <email>visualupteam@mail.com</email>
             </div>
           </div>
+
         </footer> 
+        <div className="fourth-box-content fourth-footer">
+              <CopyrightOutlined />
+              <span>Visual Up 2020</span>
+              <div className ="icons">
+                <div className = "icon">
+                  <InstagramOutlined style ={{fontSize : '30px'}} />
+                </div>
+                <div className = "icon">
+                  <TwitterOutlined style ={{fontSize : '30px'}}/>
+                </div>
+                <div className = "icon">
+                 <FacebookOutlined style ={{fontSize : '30px'}}/>
+                </div>
+              </div>
+          </div>
       </div>
     </Fragment>
   );

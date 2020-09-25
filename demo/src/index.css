@@ -193,28 +193,56 @@ html, body {
   width: 100%;
   height: 100%;
   display:flex;
-  align-items: flex-end;
+  flex-direction: column;
+ /* align-items: flex-end;*/ 
+ /* position:absolute;
+  width:100%;
+  bottom:0px;*/ 
+
 }
 
 .fourth-box-container {
+  margin-top: auto;
   display:flex;
   justify-content:space-around;
   padding-bottom: 5rem;
   width:100%;
+
   /* align-items:flex-end;  */  /* justify-content(가로), align-items(세로)는 flex item을 정렬 */
-  background-color: rgb(222,235,247);
+  background-color: rgb(247, 243, 222);
  /*  position:absolute;*/
  
    /*
   이거 세 줄 추가하면 3번째 page 밑에가서 붙어있음*/
 }
 
-.fourth-box-content{
+.fourth-box-container .fourth-box-content{
   padding:3%;
 }
 
 th{
   padding:3%;
+}
+
+.fourth-footer {
+  background-color: rgb(124, 111, 83);
+  width: 100%;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.fourth-footer{
+  display: flex;
+  align-items: center;
+}
+
+.fourth-footer .icons{
+  display: inline-flex;
+  margin-left: auto;
+}
+
+.fourth-footer .icons .icon {
+  margin : 5px;
 }
 
 /*---------------------------------- fifth */
