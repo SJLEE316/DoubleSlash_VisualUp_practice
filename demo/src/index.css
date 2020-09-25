@@ -203,6 +203,7 @@ html, body {
   display:flex;
   justify-content:space-around;
   padding-bottom: 5rem;
+  width: 100%;
   /* align-items:flex-end;  */  /* justify-content(가로), align-items(세로)는 flex item을 정렬 */
   background-color: rgb(222,235,247);
  /*  position:absolute;*/
