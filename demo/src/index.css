@@ -138,7 +138,7 @@ html, body {
     font-size: 10px;
   }
 
-/* third */
+/*------------------------------- third */
 
 .component.third-component {
   background-color: rgb(243,239,236);
@@ -181,11 +181,32 @@ html, body {
   border-radius: 100px;
 }
 
-.component.fourth-component {
-    /*background-color: rgb(222,235,247);*/
-    background:url(./img/hip-square.png) repeat;
+/* -------------------------fourth */
+
+.fourth-container {
+  position:relative;
 }
 
+.fourth-box-container {
+  display:flex;
+  justify-content:space-around;
+  /* align-items:flex-end;  */  /* justify-content(가로), align-items(세로)는 flex item을 정렬 */
+  background-color: rgb(222,235,247);
+  /* position:absolute;
+  width:100%;
+  bottom:0px; 
+  이거 세 줄 추가하면 3번째 page 밑에가서 붙어있음*/ 
+}
+
+.fourth-box-content{
+  padding:3%;
+}
+
+th{
+  padding:3%;
+}
+
+/*---------------------------------- fifth */
 .component.fifth-component {
     background-color: rgb(147,193,190);
 }
