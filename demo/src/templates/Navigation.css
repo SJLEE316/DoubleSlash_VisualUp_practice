@@ -19,9 +19,10 @@
 }
 
 .link img {
-    width: 100px;
-    height: 30px;
-    margin-left: 3rem ;
+    width: 110px;
+    height: 45px;
+    margin-left: 4rem ;
+    margin-top: 1rem;
     padding: 0.2rem;
 }
 
@@ -29,7 +30,7 @@
     display: inline-flex;
     margin-left: auto;
     padding-right: 3rem;
-    
+    margin-top: 2rem;
 }
 .icon .link {
     padding : 0.5rem;
