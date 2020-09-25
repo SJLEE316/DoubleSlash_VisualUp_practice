@@ -147,9 +147,9 @@ html, body {
 .third-container{
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
   justify-content: center;
-  align-content:center;
+  align-content:center; /* 왜아무반응없지 */
+  margin:auto;
 }
 
 .third-box.container{
@@ -180,18 +180,6 @@ html, body {
   width:  100px;
   border-radius: 100px;
 }
-
-
-/**/
-.third-component .third-component-text {
-  text-align: center;
-  height: 150px;
-}
-
-.third-box-content p{
-  font-size: 10px;
-}
-
 
 .component.fourth-component {
     /*background-color: rgb(222,235,247);*/
