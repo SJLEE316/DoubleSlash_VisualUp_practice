@@ -201,22 +201,27 @@ html, body {
 
 }
 
-.fourth-box-container {
+.fourth-box-container{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.fourth-box-content-container {
   margin-top: auto;
   display:flex;
   justify-content:space-around;
   padding-bottom: 5rem;
   width:100%;
-
-  /* align-items:flex-end;  */  /* justify-content(가로), align-items(세로)는 flex item을 정렬 */
+  padding:3%;
   background-color: rgb(247, 243, 222);
+  /* align-items:flex-end;  */  /* justify-content(가로), align-items(세로)는 flex item을 정렬 */
  /*  position:absolute;*/
- 
-   /*
-  이거 세 줄 추가하면 3번째 page 밑에가서 붙어있음*/
-}
+ }
 
-.fourth-box-container .fourth-box-content{
+.fourth-box-content{
   padding:3%;
 }
 
@@ -228,14 +233,12 @@ th{
   background-color: rgb(124, 111, 83);
   width: 100%;
   color: #fff;
-  margin-bottom: 5%;
-}
-
-.fourth-footer{
+  margin-bottom: 4%;   /* 밑에 뜨는 거 방지(야매인가....) */
   display: flex;
   align-items: center;
-}
+  padding:1%;
 
+}
 .fourth-footer .icons{
   display: inline-flex;
   margin-left: auto;
