@@ -3,7 +3,7 @@ import ImgFace from "./img/face.png";
 import {InstagramOutlined, TwitterOutlined, FacebookOutlined, GithubOutlined } from '@ant-design/icons';
 
 
-export default () => {
+function ThirdComponent() {
   return (
     <Fragment>
       <div className="component third-component">
@@ -106,4 +106,6 @@ export default () => {
       </div>
     </Fragment>
   );
-};
+}
+
+export default ThirdComponent;

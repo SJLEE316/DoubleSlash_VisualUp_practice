@@ -4,7 +4,7 @@ import ImgStu from "./img/studing.jpg";
 import ImgGraph from "./img/graph.jpg";
 import ImgClock from "./img/clock.png";
 
-export default () => {
+function SecondComponent() {
   return (
     <Fragment>
       <div className="component second-component">
@@ -57,3 +57,5 @@ export default () => {
     </Fragment>
   );
 };
+
+export default SecondComponent;

@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from 'antd';
 import BGimg from "./img/BGimg.jpg";
 
-export default () => {
+function FirstComponent() {
   return (
     <div className="component first-component">
       <div className = "first-component-text">
@@ -16,3 +16,6 @@ export default () => {
     </div>
   );
 };
+
+export default FirstComponent;
+

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Logo from "../src/img/logo.png";
 import { TwitterOutlined , InstagramOutlined  ,FacebookOutlined ,CopyrightOutlined   } from '@ant-design/icons';
 
-export default () => {
+function FourthComponent() {
   return (
     <Fragment>
       <div className="fourth-container">
@@ -65,4 +65,6 @@ export default () => {
       </div> 
     </Fragment>
   );
-};
+}
+
+export default FourthComponent;
