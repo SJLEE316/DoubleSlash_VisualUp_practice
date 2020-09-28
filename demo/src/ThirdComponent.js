@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import ImgFace from "./img/face.png";
 import {InstagramOutlined, TwitterOutlined, FacebookOutlined, GithubOutlined } from '@ant-design/icons';
+import "./ThirdComponent.css"
 
 
 function ThirdComponent() {

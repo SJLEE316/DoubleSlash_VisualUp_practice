@@ -3,6 +3,8 @@ import ImgCode from "./img/coding.jpg";
 import ImgStu from "./img/studing.jpg";
 import ImgGraph from "./img/graph.jpg";
 import ImgClock from "./img/clock.png";
+import "./SecondComponent.css"
+
 
 function SecondComponent() {
   return (

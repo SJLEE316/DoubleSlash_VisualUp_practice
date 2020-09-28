@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import Logo from "../src/img/logo.png";
 import { TwitterOutlined , InstagramOutlined  ,FacebookOutlined ,CopyrightOutlined   } from '@ant-design/icons';
+import "./FourthComponent.css"
+
 
 function FourthComponent() {
   return (

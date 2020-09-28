@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from 'antd';
 import BGimg from "./img/BGimg.jpg";
+import "./FirstComponent.css"
+
 
 function FirstComponent() {
   return (
