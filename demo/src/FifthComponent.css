@@ -27,3 +27,12 @@
     margin:auto;
 
 }
+
+
+.slick-slide{
+    margin: 5px;
+}
+
+.slick-prev, .slick-next {
+    top: 25% !important;
+}
