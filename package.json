@@ -27,7 +27,9 @@
     "gh-pages": "^1.1.0",
     "lodash": "^4.17.15",
     "prop-types": "^15.6.2",
-    "react-bootstrap": "^0.32.1"
+    "react-bootstrap": "^0.32.1",
+    "react-slick": "^0.27.11",
+    "slick-carousel": "^1.8.1"
   },
   "peerDependencies": {
     "react": "^16.10.2",
@@ -46,7 +48,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "nwb": "^0.23.0",
+    "nwb": "^0.25.2",
     "prettier": "^1.18.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
